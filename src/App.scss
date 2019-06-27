@@ -1,0 +1,15 @@
+.container {
+    margin: 3rem auto;
+    height: max-content;
+    width: 95vw;
+    display: grid;
+    grid-template-row: repeat(3, max-content);
+    grid-gap: 3rem;
+}
+
+.todo-list {
+    display: grid;
+    grid-template-rows: auto;
+    height: max-content;
+    grid-gap: 3rem;
+}

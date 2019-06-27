@@ -1,0 +1,27 @@
+.create-todo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    height: 10vh;
+    padding: 1rem;
+
+    &-title {
+        font-size: 2rem;
+    }
+
+    &-date {
+        font-size: 2rem;
+    }
+
+    &-btn {
+        font-size: 2rem;
+        border-radius: 10%;
+        background: palevioletred;
+        transition: 1s all;
+        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(black, 0.5);
+        &:hover {
+            transform: translateY(-1rem);
+            font-size: 3rem;
+        }
+    }
+}
